@@ -2,7 +2,7 @@ Nothing fancy in this repo, just created to have blank sysmon config handy.
 Based on sysmon version one should change schema version in config file, You can get the current schema version by using the "-? config" command line.
 This config will include all the events.
 
-sysmon64.exe -? config 
+sysmon64.exe -? config
 
 <Sysmon schemaversion="4.83">
   <!-- Capture all hashes -->
