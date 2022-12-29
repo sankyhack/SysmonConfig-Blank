@@ -13,7 +13,7 @@ sysmon64.exe -? config
 	<NetworkConnect onmatch="exclude"> </NetworkConnect>
 	<ProcessTerminate onmatch="exclude" ></ProcessTerminate>
 	<DriverLoad onmatch="exclude"> </DriverLoad>
-  	<ImageLoad="exclude"> </ImageLoad>
+  	<ImageLoad onmatch="exclude"> </ImageLoad>
 	<CreateRemoteThread onmatch="exclude"> </CreateRemoteThread>
   	<RawAccessRead onmatch="exclude" ></RawAccessRead>
   	<ProcessAccess onmatch="exclude"> </ProcessAccess>
@@ -22,7 +22,7 @@ sysmon64.exe -? config
 	<FileCreateStreamHash onmatch="exclude"> </FileCreateStreamHash>
 	<PipeEvent onmatch="exclude"> </PipeEvent>
   	<WmiEvent onmatch="exclude" ></WmiEvent>
-  	<DNSQuery onmatch="exclude"> </DNSQuery>
+  	<DnsQuery onmatch="exclude"> </DnsQuery>
 	<FileDelete onmatch="exclude"> </FileDelete>
 	<ClipboardChange onmatch="exclude"> </ClipboardChange>
 	<ProcessTampering onmatch="exclude"> </ProcessTampering>
